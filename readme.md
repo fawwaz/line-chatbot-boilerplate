@@ -41,6 +41,7 @@ Modify the bot code (I will tell more detailed steps in future tutorial)
 
 
 ### 7. Test Your code locally
+Copy `.env.example` , rename it to `.env`, edit the `.env` file put your **Channel Secret, Channel ID and Channel Access Token** there.
 To test your bot locally, you have to run this command :
 ```
 npm run dev
