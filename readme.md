@@ -8,7 +8,8 @@ An opinionated boilerplate for building Line Messenger Chatbot. This boilerplate
 ### 1. Open [https://developers.line.me/en/](https://developers.line.me/en/)
 Login with your Line account, go through then create a new bot follow [this guide](https://developers.line.me/en/docs/messaging-api/getting-started/). There are 3 kinds of accounts, developer trial, Free account and Premium account. If you choose developer trial, you can use LINE `push` message API. However, your bot can only have up to 50 friends. If you choose Free account, you are unable to use LINE `push` message API. Your bot may have unlimited friends with this account type. If your bot want to use LINE `push` message API & unlimited friends, you need to choose Free account and upgrade the account to premium account later. 
 ```
-According to line dashboard, the premium account is free until 30 january 2018. You just need to put your credit card number to use premium account without any charge.
+According to line dashboard, the premium account is free until 30 january 2018. 
+You just need to put your credit card number to use premium account without any charge.
 ```
 
 ### 2. Get your Line Secret Token
@@ -17,7 +18,8 @@ Open your [developer console](https://developers.line.me/console/), choose one o
 ### 3. Deploy the app to heroku
 Make sure you have register yourself on heroku. Deploy this boilerplate to heroku by clicking the heroku button above. Fill **Channel Secret, Channel ID and Channel Access Token** form with the value retrieved in previous step. You may choose whatever **App Name** you like but you need to remember this for the next step.
 ```
-Heroku will serve your bot using your App Name so it will be available under https://[YOUR_APP_NAME].herokuapp.com
+Heroku will serve your bot using your App Name
+so it will be available under https://[YOUR_APP_NAME].herokuapp.com
 ```
 
 ### 4. Update Line Messenger Configuration to Link the bot on heroku
