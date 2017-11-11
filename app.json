@@ -2,5 +2,19 @@
   "name": "Line Messenger Bot Boilerplate",
   "description": "An opinionated boilerplate for building Line Messenger Chat Bot.",
   "repository": "https://github.com/fawwaz/line-chatbot-boilerplate",
-  "keywords": ["node", "express", "line", "chatbot", "redux"]
+  "keywords": ["node", "express", "line", "chatbot", "redux"],
+  "env": {
+    "LINE_CHANNEL_ID" : {
+      "description": "LINE_CHANNEL_ID",
+      "value": "YOUR_LINE_CHANNEL_ID"
+    },
+    "LINE_CHANNEL_SECRET" : {
+      "description": "LINE_CHANNEL_SECRET",
+      "value": "YOUR_LINE_CHANNEL_SECRET"
+    },
+    "LINE_CHANNEL_ACCESS_TOKEN" : {
+      "description": "LINE_CHANNEL_ACCESS_TOKEN",
+      "value": "YOUR_LINE_CHANNEL_ACCESS_TOKEN"
+    }
+  }
 }
