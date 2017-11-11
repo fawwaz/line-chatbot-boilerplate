@@ -1,0 +1,6 @@
+{
+  "name": "Line Messenger Chat Bot Boilerplate",
+  "description": "An opinionated boilerplate for building Line Messenger Chat Bot.",
+  "repository": "https://github.com/fawwaz/line-chatbot-boilerplate",
+  "keywords": ["node", "express", "line", "chatbot", "redux"]
+}
