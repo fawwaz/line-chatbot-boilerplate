@@ -37,7 +37,7 @@ cd my-example-bot
 ```
 
 ### 6. Modify your code
-Modify the bot code (I will tell more detailed steps in future tutorial)
+Modify the bot code, read this [general guideline](https://github.com/fawwaz/line-chatbot-boilerplate/wiki)
 
 
 ### 7. Test Your code locally
