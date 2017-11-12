@@ -4,6 +4,9 @@ An opinionated boilerplate for building Line Messenger Chatbot. This boilerplate
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
+## Showcase / Examples
+* [Mastermind](https://github.com/fawwaz/line-mastermind-chabot-game) chatbot
+
 ## How to use 
 ### 1. Open [https://developers.line.me/en/](https://developers.line.me/en/)
 Login with your Line account, go through then create a new bot follow [this guide](https://developers.line.me/en/docs/messaging-api/getting-started/). There are 3 kinds of accounts, developer trial, Free account and Premium account. If you choose developer trial, you can use LINE `push` message API. However, your bot can only have up to 50 friends. If you choose Free account, you are unable to use LINE `push` message API. Your bot may have unlimited friends with this account type. If your bot want to use LINE `push` message API & unlimited friends, you need to choose Free account and upgrade the account to premium account later. 
