@@ -47,7 +47,7 @@ const REDUCER = (state = initialState, action) => {
       return {
         ...state,
         [action.sourceId] : {
-          ...[action.sourceId],
+          ...state[action.sourceId],
           [action.key]: action.value,
         }
       };
