@@ -1,11 +1,24 @@
 # Line Messenger Chat Bot Boilerplate
 
-An opinionated boilerplate for building Line Messenger Chatbot. This boilerplate supports [Hot Module Replacement](https://webpack.github.io/docs/hot-module-replacement.html) so you can code effectively without restarting the server over and over again. Click the button below to deploy it to heroku.
+An opinionated boilerplate for building Line Messenger Chatbot. 
+
+## Key Features
+Why you should use this boilerplate instead of their plain example code.
+1. It supports [Hot Module Replacement](https://webpack.github.io/docs/hot-module-replacement.html) so you can code effectively without restarting the server over and over again. 
+2. Better abstraction
+separate between logical operation, state/data manipulation and presentation layer.
+3. Ability to test the bot locally.
+Immediately test your bot from your local computer without pushing to heroku.
+4. Ability to simulate multiple user simultaneously.
+5. Ability to test your bot even if you don't have any smartphone.
+
+Click the button below to deploy it to heroku.
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
 ## Showcase / Examples
-* [Mastermind](https://github.com/fawwaz/line-mastermind-chabot-game) chatbot
+* [Mastermind](https://github.com/fawwaz/line-mastermind-chabot-game) chatbot (in Production, you can simply add him using this line ID `@rgr5367i`)  
+![Demo](https://media.giphy.com/media/26u45VMCueClTdBPG/giphy.gif)
 
 ## How to use 
 ### 1. Open [https://developers.line.me/en/](https://developers.line.me/en/)
