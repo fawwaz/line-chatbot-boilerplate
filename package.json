@@ -7,8 +7,11 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "heroku-postbuild": "npm run build:prod",
     "dev:server": "rm -rf ./build && DEV_ENV=true API_BASE_URL=http://localhost:8000/ webpack --config webpack-dev.config.js",
+    "dev:serverw": "del /F /Q build && webpack --config webpack-dev.config.js",
     "dev:mock": "node LineMockServer.js",
-    "dev": "npm-run-all --parallel dev:server dev:mock",
+    "dev": "run-script-os",
+    "dev:win32": "npm-run-all --parallel dev:serverw dev:mock",
+    "dev:darwin:linux": "npm-run-all --parallel dev:server dev:mock",
     "build:prod": "rm -rf ./build && webpack --config webpack-prod.config.js",
     "start": "node build/server.js"
   },
@@ -39,7 +42,7 @@
     "moment": "^2.19.1",
     "redux": "^3.7.2",
     "redux-thunk": "^2.2.0",
-    "webpack": "^3.7.1",
+    "run-script-os": "^1.0.3",
     "webpack-node-externals": "^1.6.0"
   },
   "devDependencies": {
@@ -51,7 +54,7 @@
     "dotenv-webpack": "^1.5.4",
     "npm-run-all": "^4.1.2",
     "start-server-webpack-plugin": "^2.2.0",
-    "webpack": "^3.7.1",
+    "webpack": "^3.12.0",
     "webpack-node-externals": "^1.6.0"
   }
 }
