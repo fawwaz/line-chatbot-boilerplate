@@ -9,8 +9,8 @@ const defaultStateController = event => {
 
   // Matching using regular expression, read more about regex here : https://github.com/zeeshanu/learn-regex
   if (message.match(/^help$/)) {
-    const reply1 = 'Hi, text ini akan dipanggil saat user mengetik kata `help` ';
-    const reply2 = 'Kamu juga bisa mengirim beberapa pesan sekaligus';
+    const reply1 = 'Hi, this message appeared as you type the word `help` ';
+    const reply2 = 'You can also send multiple messages at once';
     const replies = [
       Line.textMessage(reply1),
       Line.textMessage(reply2),
