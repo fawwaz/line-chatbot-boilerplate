@@ -145,7 +145,7 @@ app.listen(8000, function(){
 
 function showTime(){
     var options = {
-        timeZone: 'Asia/Jakarta',
+        timeZone: 'Asia/Kolkata',
         year: 'numeric', month: 'numeric', day: 'numeric',
         hour: 'numeric', minute: 'numeric', second: 'numeric',
     },
